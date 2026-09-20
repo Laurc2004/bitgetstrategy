@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-20 18:48:12.002370+00:00",
+  "symbols": [
+    "QQQ",
+    "SPY",
+    "AAPL",
+    "TSLA"
+  ],
+  "train_start": "2026-06-19 00:00:00+00:00",
+  "train_end": "2026-08-18 00:00:00+00:00",
+  "holdout_end": "2026-09-17 00:00:00+00:00",
+  "variants": [
+    {
+      "family": "trend",
+      "fast": 6,
+      "slow": 18,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30
+    },
+    {
+      "family": "trend",
+      "fast": 12,
+      "slow": 36,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30
+    },
+    {
+      "family": "breakout",
+      "fast": 6,
+      "slow": 18,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30
+    },
+    {
+      "family": "breakout",
+      "fast": 12,
+      "slow": 36,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30
+    }
+  ],
+  "maximum_training_strategy_trials": 4,
+  "source_hashes": {
+    "scripts\\research_spot_trend.py": "5ffd1897278303fbfec50aa376cbddd3b98657ddc0b61311faecdd576ff96d6e",
+    "src\\basis_lab\\trend_research.py": "3debb14cd5b0b957a49b3c7f9499511e2cd7cd471d3d0c5e21009cf9880f3082",
+    "src\\basis_lab\\portfolio.py": "f6b465c38b5c6e50cdf1ce687f32f77832d9d9dfe370e84452cf04e0170da148",
+    "src\\basis_lab\\report.py": "f04db7f77abc799fb43d5b30000fef9680d0f6ad2d9bed84d5bed6236af9c643",
+    "src\\basis_lab\\data\\validate.py": "30c1359dbf5bd3c8a1c1bef2d84a028fa5e719be15d9058d13b3c11cecffdf4b"
+  },
+  "selection": ">=5 closed cycles, positive net PnL and both 30d training halves, positive after removing best trade, flat end, no account halt. Rank by training Sharpe (descending), tie by name. Stress qualified candidates only at 15bp fee/5bp slippage; first positive, flat, nonhalted candidate selected. Freeze selection before ONE historical holdout. Never choose a different candidate from holdout outcome.",
+  "signals": "Completed 4h buckets: >=60 active minutes, last observed <=5min old. Rolling fixed calendar windows require >=75% valid buckets. Trend: fast MA > slow MA and close > slow; exit inverse. Breakout: close above PRIOR slow-window high; exit below PRIOR fast-window low. Volatility: 18 buckets, >=12 contiguous observed returns; size down to target 2% daily proxy vol.",
+  "execution": "Shared cash, spot long-only; 20% equity cap per initial position, at most four positions. No periodic rebalancing. Fill on next completed minute high/low +2bp, 10bp fee each way, 1% observed minute volume, .01 token step assumption, 5USDT minimum buy. Buy targets expire after30min; sells persist. Close-based 8% trailing stop and10% account drawdown halt submit NEXT-minute exits. Orders may gap and exceed stops. Planned liquidation during final24h for ALL strategies/benchmarks; no terminal fictitious fills.",
+  "baselines": "Equal hold at20% per symbol; QQQ hold80%; SPY hold80%; cash0%yield. Same fees, capacity, price rules and end-window exit. Buy-hold has no strategy stop or volatility sizing; report actual exposure for fair interpretation.",
+  "limitations": "Exploratory research, not exchange-certified simulation. Raw token units/volume, fee schedule, minima and corporate actions not historically verified. Data gaps flagged without imputation; stale marks may understate risk. Prior project/team material exposed some historical holdout information; not pristine blind validation. These four trials add to earlier149 trials; no erased failures. No likelihood of profit inferred from papers."
+}

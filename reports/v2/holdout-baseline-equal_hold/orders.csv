@@ -1,0 +1,9 @@
+timestamp,symbol,target,reason
+2026-08-18 00:00:00+00:00,QQQ,2.73,buy_hold
+2026-08-18 00:00:00+00:00,SPY,2.58,buy_hold
+2026-08-18 00:00:00+00:00,AAPL,6.55,buy_hold
+2026-08-18 00:00:00+00:00,TSLA,5.88,buy_hold
+2026-09-16 00:00:00+00:00,QQQ,0.0,planned_end_exit
+2026-09-16 00:00:00+00:00,SPY,0.0,planned_end_exit
+2026-09-16 00:00:00+00:00,AAPL,0.0,planned_end_exit
+2026-09-16 00:00:00+00:00,TSLA,0.0,planned_end_exit

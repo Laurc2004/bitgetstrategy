@@ -1,0 +1,21 @@
+{
+  "name": "breakout-12-36",
+  "split": "post_training_cost_diagnostic",
+  "config": {
+    "family": "breakout",
+    "fast": 12,
+    "slow": 36,
+    "initial_cash": 10000.0,
+    "fee_bps": 15.0,
+    "slippage_bps": 5.0,
+    "participation": 0.01,
+    "step": 0.01,
+    "min_order": 5.0,
+    "symbol_weight": 0.2,
+    "daily_vol_target": 0.02,
+    "trailing_stop": 0.08,
+    "drawdown_stop": 0.1,
+    "order_minutes": 30
+  },
+  "parent_protocol_sha256": "9661958651689a5f9267e180eeeb2915d5de2c3c6554c1e379f97042ec24f85a"
+}

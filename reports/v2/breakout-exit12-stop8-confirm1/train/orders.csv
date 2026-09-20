@@ -1,0 +1,25 @@
+timestamp,symbol,target,reason
+2026-07-01 16:00:00+00:00,SPY,2.67,trend_entry
+2026-07-01 16:00:00+00:00,AAPL,6.01,trend_entry
+2026-07-01 16:00:00+00:00,TSLA,2.45,trend_entry
+2026-07-02 14:33:00+00:00,TSLA,0.0,trailing_stop
+2026-07-08 12:00:00+00:00,SPY,0.0,signal_exit
+2026-07-10 16:00:00+00:00,SPY,2.65,trend_entry
+2026-07-10 20:00:00+00:00,QQQ,2.7600000000000002,trend_entry
+2026-07-16 20:00:00+00:00,QQQ,0.0,signal_exit
+2026-07-17 04:00:00+00:00,SPY,0.0,signal_exit
+2026-07-22 16:00:00+00:00,SPY,2.66,trend_entry
+2026-07-23 16:00:00+00:00,SPY,0.0,signal_exit
+2026-07-23 16:00:00+00:00,AAPL,0.0,signal_exit
+2026-07-24 16:00:00+00:00,AAPL,5.47,trend_entry
+2026-07-30 16:00:00+00:00,AAPL,0.0,signal_exit
+2026-07-31 00:00:00+00:00,QQQ,2.87,trend_entry
+2026-07-31 04:00:00+00:00,SPY,2.66,trend_entry
+2026-07-31 04:00:00+00:00,TSLA,5.05,trend_entry
+2026-08-06 16:00:00+00:00,TSLA,0.0,signal_exit
+2026-08-07 16:00:00+00:00,TSLA,5.63,trend_entry
+2026-08-12 16:00:00+00:00,TSLA,0.0,signal_exit
+2026-08-13 20:00:00+00:00,TSLA,5.18,trend_entry
+2026-08-17 00:00:00+00:00,QQQ,0.0,planned_end_exit
+2026-08-17 00:00:00+00:00,SPY,0.0,planned_end_exit
+2026-08-17 00:00:00+00:00,TSLA,0.0,planned_end_exit

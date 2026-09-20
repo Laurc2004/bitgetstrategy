@@ -1,0 +1,124 @@
+{
+  "name": "breakout-exit6-stop8-confirm1",
+  "split": "train",
+  "config": {
+    "family": "breakout",
+    "fast": 6,
+    "slow": 18,
+    "initial_cash": 10000.0,
+    "fee_bps": 10.0,
+    "slippage_bps": 2.0,
+    "participation": 0.01,
+    "step": 0.01,
+    "min_order": 5.0,
+    "symbol_weight": 0.2,
+    "daily_vol_target": 0.02,
+    "trailing_stop": 0.08,
+    "drawdown_stop": 0.1,
+    "order_minutes": 30,
+    "confirmation_bars": 1
+  },
+  "source": {
+    "QQQ": {
+      "source": {
+        "path": "C:\\my-code\\bitgetquant\\review-weekend-bounce\\reproduce\\pair_1m\\RQQQUSDT_spot.jsonl",
+        "sha256": "d64093116d82900b4cd258a3ff1c728d5a4aef539339ebc94ba3431647cdfd40",
+        "rows": 106876,
+        "first_bar": "2026-06-01 00:00:00+00:00",
+        "last_bar": "2026-09-16 12:40:00+00:00",
+        "exact_duplicates_removed": 0,
+        "unknown_volume_rows": 0,
+        "zero_volume_fraction": 0.0026759983532317825
+      },
+      "training": {
+        "observed_minutes": 57392,
+        "observed_dates": 57,
+        "missing_dates": [
+          "2026-06-20",
+          "2026-06-21",
+          "2026-06-28"
+        ],
+        "unobserved_minutes_in_calendar_window": 29008,
+        "max_observed_gap_minutes": 4320.0,
+        "zero_volume_minutes": 65,
+        "adjacent_observed_price_jumps_over_20pct": 0,
+        "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+      }
+    },
+    "SPY": {
+      "source": {
+        "path": "C:\\my-code\\bitgetquant\\review-weekend-bounce\\reproduce\\pair_1m\\RSPYUSDT_spot.jsonl",
+        "sha256": "2e38ba3365a882857d99abef75fd260bdeb9b0a90c998a73fe4f9c0fb75767d1",
+        "rows": 101926,
+        "first_bar": "2026-06-01 00:00:00+00:00",
+        "last_bar": "2026-09-16 12:40:00+00:00",
+        "exact_duplicates_removed": 0,
+        "unknown_volume_rows": 0,
+        "zero_volume_fraction": 0.009467653003159155
+      },
+      "training": {
+        "observed_minutes": 54837,
+        "observed_dates": 53,
+        "missing_dates": [
+          "2026-06-20",
+          "2026-06-21",
+          "2026-06-28",
+          "2026-07-04",
+          "2026-07-05",
+          "2026-07-12",
+          "2026-07-19"
+        ],
+        "unobserved_minutes_in_calendar_window": 31563,
+        "max_observed_gap_minutes": 4320.0,
+        "zero_volume_minutes": 258,
+        "adjacent_observed_price_jumps_over_20pct": 0,
+        "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+      }
+    },
+    "AAPL": {
+      "source": {
+        "path": "C:\\my-code\\bitgetquant\\review-weekend-bounce\\reproduce\\pair_1m\\RAAPLUSDT_spot.jsonl",
+        "sha256": "8da76948208f7242ade456cdef110bc6143ba5e94538f4b540093d12bacaf09e",
+        "rows": 103498,
+        "first_bar": "2026-06-01 00:00:00+00:00",
+        "last_bar": "2026-09-16 12:40:00+00:00",
+        "exact_duplicates_removed": 0,
+        "unknown_volume_rows": 0,
+        "zero_volume_fraction": 0.021845832769715356
+      },
+      "training": {
+        "observed_minutes": 55943,
+        "observed_dates": 60,
+        "missing_dates": [],
+        "unobserved_minutes_in_calendar_window": 30457,
+        "max_observed_gap_minutes": 535.0,
+        "zero_volume_minutes": 435,
+        "adjacent_observed_price_jumps_over_20pct": 0,
+        "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+      }
+    },
+    "TSLA": {
+      "source": {
+        "path": "C:\\my-code\\bitgetquant\\review-weekend-bounce\\reproduce\\pair_1m\\RTSLAUSDT_spot.jsonl",
+        "sha256": "2b5ba4ec7e8a4099db50444040d5dafaada71c1a38129c8c869fc71e16951394",
+        "rows": 135422,
+        "first_bar": "2026-04-20 10:55:00+00:00",
+        "last_bar": "2026-09-16 12:40:00+00:00",
+        "exact_duplicates_removed": 0,
+        "unknown_volume_rows": 0,
+        "zero_volume_fraction": 0.004268139593271403
+      },
+      "training": {
+        "observed_minutes": 58084,
+        "observed_dates": 60,
+        "missing_dates": [],
+        "unobserved_minutes_in_calendar_window": 28316,
+        "max_observed_gap_minutes": 406.0,
+        "zero_volume_minutes": 145,
+        "adjacent_observed_price_jumps_over_20pct": 0,
+        "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+      }
+    }
+  },
+  "protocol_sha256": "5a3ac8d30d9a7c97bd5febe482fc189857996376e8db72ac346ee132a7de8635"
+}

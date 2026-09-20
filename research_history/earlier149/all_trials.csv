@@ -1,0 +1,150 @@
+family,id,net_pnl,closed_cycles,normal_cycles,qualified
+同标的基差 / 资金费,AAPL/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,AAPL/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,COIN/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,COIN/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,GOOGL/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,HOOD/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,INTC/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,INTC/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,META/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,META/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,META/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,META/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,META/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,META/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,META/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,MSTR/basis-60-6h,0.20267746946956322,1,1,False
+同标的基差 / 资金费,MSTR/basis-60-24h,0.20267746946956322,1,1,False
+同标的基差 / 资金费,MSTR/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,MSTR/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,MSTR/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,MSTR/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,MSTR/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,PLTR/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,QQQ/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,SPY/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,SPY/carry-7d,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-60-6h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-60-24h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-100-6h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-100-24h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-200-6h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/basis-200-24h,0.0,0,0,False
+同标的基差 / 资金费,TSLA/carry-7d,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-5d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-5d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-5d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-5d-z3-72h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-10d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-10d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-10d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,QQQ-SPY-10d-z3-72h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-5d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-5d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-5d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-5d-z3-72h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-10d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-10d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-10d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,GOOGL-META-10d-z3-72h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-5d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-5d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-5d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-5d-z3-72h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-10d-z2-24h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-10d-z2-72h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-10d-z3-24h,0.0,0,0,False
+统计回归 · 固定规模,COIN-MSTR-10d-z3-72h,0.0,0,0,False
+统计回归 · 容量定规模,QQQ-SPY-5d-z2-24h,-5.82549127420134,20,5,False
+统计回归 · 容量定规模,QQQ-SPY-5d-z2-72h,-4.80804525388703,19,4,False
+统计回归 · 容量定规模,QQQ-SPY-5d-z3-24h,-2.095478433619064,7,5,False
+统计回归 · 容量定规模,QQQ-SPY-5d-z3-72h,-1.1576313795885653,6,4,False
+统计回归 · 容量定规模,QQQ-SPY-10d-z2-24h,-5.141097794898087,28,4,False
+统计回归 · 容量定规模,QQQ-SPY-10d-z2-72h,-5.536938119723345,27,4,False
+统计回归 · 容量定规模,QQQ-SPY-10d-z3-24h,-0.830876763939159,5,2,False
+统计回归 · 容量定规模,QQQ-SPY-10d-z3-72h,-0.7406384330515721,5,2,False
+统计回归 · 容量定规模,GOOGL-META-5d-z2-24h,-2.825400797984912,8,2,False
+统计回归 · 容量定规模,GOOGL-META-5d-z2-72h,-2.8523189940806333,8,2,False
+统计回归 · 容量定规模,GOOGL-META-5d-z3-24h,0.0,0,0,False
+统计回归 · 容量定规模,GOOGL-META-5d-z3-72h,0.0,0,0,False
+统计回归 · 容量定规模,GOOGL-META-10d-z2-24h,-3.0984079464469687,7,4,False
+统计回归 · 容量定规模,GOOGL-META-10d-z2-72h,-2.9902656833346555,7,4,False
+统计回归 · 容量定规模,GOOGL-META-10d-z3-24h,0.41107465071945626,4,1,False
+统计回归 · 容量定规模,GOOGL-META-10d-z3-72h,0.41107465071945626,4,1,False
+统计回归 · 容量定规模,COIN-MSTR-5d-z2-24h,-25.146338349388316,30,15,False
+统计回归 · 容量定规模,COIN-MSTR-5d-z2-72h,-25.146338349388316,30,15,False
+统计回归 · 容量定规模,COIN-MSTR-5d-z3-24h,-16.143654416984646,12,6,False
+统计回归 · 容量定规模,COIN-MSTR-5d-z3-72h,-16.143654416984646,12,6,False
+统计回归 · 容量定规模,COIN-MSTR-10d-z2-24h,-20.39380983083538,30,16,False
+统计回归 · 容量定规模,COIN-MSTR-10d-z2-72h,-20.39380983083538,30,16,False
+统计回归 · 容量定规模,COIN-MSTR-10d-z3-24h,-13.81902174129209,12,10,False
+统计回归 · 容量定规模,COIN-MSTR-10d-z3-72h,-13.81902174129209,12,10,False
+对冲相对强弱趋势,QQQ-SPY-5d-z2-24h,-5.150796736999837,14,4,False
+对冲相对强弱趋势,QQQ-SPY-5d-z2-72h,-5.569574547329466,14,4,False
+对冲相对强弱趋势,QQQ-SPY-5d-z3-24h,-2.5838987934239412,6,4,False
+对冲相对强弱趋势,QQQ-SPY-5d-z3-72h,-3.002676603753571,6,4,False
+对冲相对强弱趋势,QQQ-SPY-10d-z2-24h,-7.115764141581167,20,4,False
+对冲相对强弱趋势,QQQ-SPY-10d-z2-72h,-8.052198559489625,19,4,False
+对冲相对强弱趋势,QQQ-SPY-10d-z3-24h,-1.7533205509716936,5,2,False
+对冲相对强弱趋势,QQQ-SPY-10d-z3-72h,-2.401792948900038,5,2,False
+对冲相对强弱趋势,GOOGL-META-5d-z2-24h,-0.047156023556453874,5,2,False
+对冲相对强弱趋势,GOOGL-META-5d-z2-72h,0.7703805513938278,3,1,False
+对冲相对强弱趋势,GOOGL-META-5d-z3-24h,0.0,0,0,False
+对冲相对强弱趋势,GOOGL-META-5d-z3-72h,0.0,0,0,False
+对冲相对强弱趋势,GOOGL-META-10d-z2-24h,-4.898311531334912,4,1,False
+对冲相对强弱趋势,GOOGL-META-10d-z2-72h,-5.1402294050385535,4,1,False
+对冲相对强弱趋势,GOOGL-META-10d-z3-24h,-5.222831690967723,3,0,False
+对冲相对强弱趋势,GOOGL-META-10d-z3-72h,-5.222831690967723,3,0,False
+对冲相对强弱趋势,COIN-MSTR-5d-z2-24h,-10.669220740783203,28,13,False
+对冲相对强弱趋势,COIN-MSTR-5d-z2-72h,-10.669220740783203,28,13,False
+对冲相对强弱趋势,COIN-MSTR-5d-z3-24h,-3.4549287927729893,11,5,False
+对冲相对强弱趋势,COIN-MSTR-5d-z3-72h,-3.4549287927729893,11,5,False
+对冲相对强弱趋势,COIN-MSTR-10d-z2-24h,-10.798567805599305,20,10,False
+对冲相对强弱趋势,COIN-MSTR-10d-z2-72h,-10.798567805599305,20,10,False
+对冲相对强弱趋势,COIN-MSTR-10d-z3-24h,-9.080535813989627,10,6,False
+对冲相对强弱趋势,COIN-MSTR-10d-z3-72h,-9.080535813989627,10,6,False

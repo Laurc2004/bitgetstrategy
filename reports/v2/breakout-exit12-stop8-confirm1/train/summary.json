@@ -1,0 +1,30 @@
+{
+  "total_return_pct": 1.1994420519865434,
+  "net_pnl": 119.94420519865344,
+  "max_drawdown_pct": -2.598277798568127,
+  "sharpe_daily_ann": 1.2331459427822145,
+  "sortino_daily_ann": 2.1827567094925744,
+  "daily_observations": 60,
+  "valuation_points": 86400,
+  "stale_valuation_points": 21028,
+  "fees": 43.77420658534799,
+  "slippage_embedded": 8.754848215999214,
+  "price_pnl": 163.71841178400106,
+  "accounting_residual": 3.694822225952521e-13,
+  "closed_cycles": 12,
+  "fills": 29,
+  "winning_cycle_fraction": 0.4166666666666667,
+  "first_half_pnl": 41.93305217952911,
+  "second_half_pnl": 78.01115301912432,
+  "pnl_excluding_best_trade": -29.348023868506885,
+  "turnover_over_initial_cash": 4.377420658534799,
+  "average_gross_exposure_pct": 31.51631720614815,
+  "unclosed_position": false,
+  "halted": false,
+  "ending_positions": {
+    "QQQ": 0.0,
+    "SPY": 0.0,
+    "AAPL": 0.0,
+    "TSLA": 0.0
+  }
+}

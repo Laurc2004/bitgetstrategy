@@ -1,0 +1,22 @@
+{
+  "name": "breakout-exit6-stop4-confirm2",
+  "split": "historical_holdout_fixed_cost_stress",
+  "config": {
+    "family": "breakout",
+    "fast": 6,
+    "slow": 18,
+    "initial_cash": 10000.0,
+    "fee_bps": 15.0,
+    "slippage_bps": 5.0,
+    "participation": 0.01,
+    "step": 0.01,
+    "min_order": 5.0,
+    "symbol_weight": 0.2,
+    "daily_vol_target": 0.02,
+    "trailing_stop": 0.04,
+    "drawdown_stop": 0.1,
+    "order_minutes": 30,
+    "confirmation_bars": 2
+  },
+  "selection_sha256": "b7762c2190ca5a42da98daf61471b26123e1ae80096834edb792d9612a8c7c37"
+}

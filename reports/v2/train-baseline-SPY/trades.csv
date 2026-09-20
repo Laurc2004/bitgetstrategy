@@ -1,0 +1,2 @@
+entry_time,net_pnl,fees,entry_notional,symbol,exit_time,reason
+2026-06-22 00:02:00+00:00,337.84857893820003,16.3686723018,8007.227525279999,SPY,2026-08-17 00:02:00+00:00,planned_end_exit

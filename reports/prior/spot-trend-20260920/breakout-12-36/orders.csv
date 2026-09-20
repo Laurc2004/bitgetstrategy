@@ -1,0 +1,7 @@
+timestamp,symbol,target,reason
+2026-07-01 16:00:00+00:00,TSLA,2.45,trend_entry
+2026-07-02 14:33:00+00:00,TSLA,0.0,trailing_stop
+2026-07-10 16:00:00+00:00,SPY,2.63,trend_entry
+2026-08-07 16:00:00+00:00,TSLA,5.55,trend_entry
+2026-08-17 00:00:00+00:00,SPY,0.0,planned_end_exit
+2026-08-17 00:00:00+00:00,TSLA,0.0,planned_end_exit

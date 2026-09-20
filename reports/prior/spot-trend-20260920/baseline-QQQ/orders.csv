@@ -1,0 +1,5 @@
+timestamp,symbol,target,reason
+2026-06-19 00:00:00+00:00,QQQ,10.81,buy_hold
+2026-06-19 00:31:00+00:00,QQQ,0.0,buy_expired
+2026-06-22 00:01:00+00:00,QQQ,10.92,buy_hold
+2026-08-17 00:00:00+00:00,QQQ,0.0,planned_end_exit

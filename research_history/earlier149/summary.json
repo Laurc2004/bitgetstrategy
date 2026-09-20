@@ -1,0 +1,66 @@
+{
+  "scope": "EXPLORATORY_TRAINING_ONLY",
+  "window": "2026-06-19 — 2026-08-18 UTC",
+  "initial_cash_per_account": 10000,
+  "training_trials": 149,
+  "positive_parameter_trials": 5,
+  "unique_positive_fill_paths": 3,
+  "qualified_candidates": 0,
+  "oos_evaluated_this_round": false,
+  "positive_candidates": [
+    {
+      "family": "同标的基差 / 资金费",
+      "name": "MSTR/basis-60-6h",
+      "net_pnl": 0.20267746946956322,
+      "total_return_pct": 0.002026774694695632,
+      "closed_cycles": 1,
+      "normal_cycles": 1,
+      "first_half_pnl": 0.20267746946956322,
+      "second_half_pnl": 0.0,
+      "qualified": false,
+      "report_url": "/reports/profit-search-20260920/MSTR/basis-60-6h/report.html",
+      "local_report": "../profit-search-20260920/MSTR/basis-60-6h/report.html"
+    },
+    {
+      "family": "统计回归 · 容量定规模",
+      "name": "GOOGL-META-10d-z3-24h",
+      "net_pnl": 0.41107465071945626,
+      "total_return_pct": 0.004110746507194563,
+      "closed_cycles": 4,
+      "normal_cycles": 1,
+      "first_half_pnl": 3.172158366322037,
+      "second_half_pnl": -2.761083715602581,
+      "qualified": false,
+      "report_url": "/reports/stat-arb-adaptive-20260920/GOOGL-META-10d-z3-24h/report.html",
+      "local_report": "../stat-arb-adaptive-20260920/GOOGL-META-10d-z3-24h/report.html"
+    },
+    {
+      "family": "对冲相对强弱趋势",
+      "name": "GOOGL-META-5d-z2-72h",
+      "net_pnl": 0.7703805513938278,
+      "total_return_pct": 0.0077038055139382776,
+      "closed_cycles": 3,
+      "normal_cycles": 1,
+      "first_half_pnl": 0.0,
+      "second_half_pnl": 0.7703805513938278,
+      "qualified": false,
+      "report_url": "/reports/stat-relative-trend-20260920/GOOGL-META-5d-z2-72h/report.html",
+      "local_report": "../stat-relative-trend-20260920/GOOGL-META-5d-z2-72h/report.html"
+    }
+  ],
+  "excluded": [
+    {
+      "symbol": "NFLX",
+      "status": "excluded_funding",
+      "reason": "Funding data gap/schedule mismatch: 2 missing, 0 off-schedule events"
+    },
+    {
+      "symbol": "RDDT",
+      "status": "excluded_funding",
+      "reason": "Funding data gap/schedule mismatch: 2 missing, 0 off-schedule events"
+    }
+  ],
+  "conclusion": "正训练收益已找到；没有方案通过预声明稳定性筛选。存在参数选择偏差，正收益集中于少量交易，不能称为验证盈利。",
+  "mstr_reproduction": "/reports/mstr-candidate-reproduced-20260920/report.html",
+  "cost_stress_note": "MSTR 基准 +0.202677 USDT；现货12bp/永续8bp/滑点4bp的成本感知重跑无交易，未证明成本压力下仍盈利。"
+}

@@ -1,0 +1,42 @@
+{
+  "QQQ": {
+    "observed_minutes": 29579,
+    "observed_dates": 30,
+    "missing_dates": [],
+    "unobserved_minutes_in_calendar_window": 13621,
+    "max_observed_gap_minutes": 189.0,
+    "zero_volume_minutes": 60,
+    "adjacent_observed_price_jumps_over_20pct": 0,
+    "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+  },
+  "SPY": {
+    "observed_minutes": 27637,
+    "observed_dates": 30,
+    "missing_dates": [],
+    "unobserved_minutes_in_calendar_window": 15563,
+    "max_observed_gap_minutes": 791.0,
+    "zero_volume_minutes": 79,
+    "adjacent_observed_price_jumps_over_20pct": 0,
+    "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+  },
+  "AAPL": {
+    "observed_minutes": 28270,
+    "observed_dates": 30,
+    "missing_dates": [],
+    "unobserved_minutes_in_calendar_window": 14930,
+    "max_observed_gap_minutes": 266.0,
+    "zero_volume_minutes": 325,
+    "adjacent_observed_price_jumps_over_20pct": 0,
+    "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+  },
+  "TSLA": {
+    "observed_minutes": 29830,
+    "observed_dates": 30,
+    "missing_dates": [],
+    "unobserved_minutes_in_calendar_window": 13370,
+    "max_observed_gap_minutes": 178.0,
+    "zero_volume_minutes": 218,
+    "adjacent_observed_price_jumps_over_20pct": 0,
+    "gap_interpretation": "Unknown closure/data/issuer cause; no tradable bars are imputed."
+  }
+}

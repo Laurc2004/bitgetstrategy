@@ -1,0 +1,1194 @@
+[
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "AAPL/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "COIN/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "GOOGL/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "HOOD/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "INTC/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "META/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-60-6h",
+    "net_pnl": 0.20267746946956322,
+    "closed_cycles": 1,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-60-24h",
+    "net_pnl": 0.20267746946956322,
+    "closed_cycles": 1,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "MSTR/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "PLTR/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "QQQ/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "SPY/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-60-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-60-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-100-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-100-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-200-6h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/basis-200-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "同标的基差 / 资金费",
+    "id": "TSLA/carry-7d",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-5d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-5d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-5d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-5d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-10d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-10d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-10d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "QQQ-SPY-10d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-5d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-5d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-5d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-5d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-10d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-10d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-10d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "GOOGL-META-10d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-5d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-5d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-5d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-5d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-10d-z2-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-10d-z2-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-10d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 固定规模",
+    "id": "COIN-MSTR-10d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-5d-z2-24h",
+    "net_pnl": -5.82549127420134,
+    "closed_cycles": 20,
+    "normal_cycles": 5,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-5d-z2-72h",
+    "net_pnl": -4.80804525388703,
+    "closed_cycles": 19,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-5d-z3-24h",
+    "net_pnl": -2.095478433619064,
+    "closed_cycles": 7,
+    "normal_cycles": 5,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-5d-z3-72h",
+    "net_pnl": -1.1576313795885653,
+    "closed_cycles": 6,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-10d-z2-24h",
+    "net_pnl": -5.141097794898087,
+    "closed_cycles": 28,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-10d-z2-72h",
+    "net_pnl": -5.536938119723345,
+    "closed_cycles": 27,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-10d-z3-24h",
+    "net_pnl": -0.830876763939159,
+    "closed_cycles": 5,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "QQQ-SPY-10d-z3-72h",
+    "net_pnl": -0.7406384330515721,
+    "closed_cycles": 5,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-5d-z2-24h",
+    "net_pnl": -2.825400797984912,
+    "closed_cycles": 8,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-5d-z2-72h",
+    "net_pnl": -2.8523189940806333,
+    "closed_cycles": 8,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-5d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-5d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-10d-z2-24h",
+    "net_pnl": -3.0984079464469687,
+    "closed_cycles": 7,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-10d-z2-72h",
+    "net_pnl": -2.9902656833346555,
+    "closed_cycles": 7,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-10d-z3-24h",
+    "net_pnl": 0.41107465071945626,
+    "closed_cycles": 4,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "GOOGL-META-10d-z3-72h",
+    "net_pnl": 0.41107465071945626,
+    "closed_cycles": 4,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-5d-z2-24h",
+    "net_pnl": -25.146338349388316,
+    "closed_cycles": 30,
+    "normal_cycles": 15,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-5d-z2-72h",
+    "net_pnl": -25.146338349388316,
+    "closed_cycles": 30,
+    "normal_cycles": 15,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-5d-z3-24h",
+    "net_pnl": -16.143654416984646,
+    "closed_cycles": 12,
+    "normal_cycles": 6,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-5d-z3-72h",
+    "net_pnl": -16.143654416984646,
+    "closed_cycles": 12,
+    "normal_cycles": 6,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-10d-z2-24h",
+    "net_pnl": -20.39380983083538,
+    "closed_cycles": 30,
+    "normal_cycles": 16,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-10d-z2-72h",
+    "net_pnl": -20.39380983083538,
+    "closed_cycles": 30,
+    "normal_cycles": 16,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-10d-z3-24h",
+    "net_pnl": -13.81902174129209,
+    "closed_cycles": 12,
+    "normal_cycles": 10,
+    "qualified": false
+  },
+  {
+    "family": "统计回归 · 容量定规模",
+    "id": "COIN-MSTR-10d-z3-72h",
+    "net_pnl": -13.81902174129209,
+    "closed_cycles": 12,
+    "normal_cycles": 10,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-5d-z2-24h",
+    "net_pnl": -5.150796736999837,
+    "closed_cycles": 14,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-5d-z2-72h",
+    "net_pnl": -5.569574547329466,
+    "closed_cycles": 14,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-5d-z3-24h",
+    "net_pnl": -2.5838987934239412,
+    "closed_cycles": 6,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-5d-z3-72h",
+    "net_pnl": -3.002676603753571,
+    "closed_cycles": 6,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-10d-z2-24h",
+    "net_pnl": -7.115764141581167,
+    "closed_cycles": 20,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-10d-z2-72h",
+    "net_pnl": -8.052198559489625,
+    "closed_cycles": 19,
+    "normal_cycles": 4,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-10d-z3-24h",
+    "net_pnl": -1.7533205509716936,
+    "closed_cycles": 5,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "QQQ-SPY-10d-z3-72h",
+    "net_pnl": -2.401792948900038,
+    "closed_cycles": 5,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-5d-z2-24h",
+    "net_pnl": -0.047156023556453874,
+    "closed_cycles": 5,
+    "normal_cycles": 2,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-5d-z2-72h",
+    "net_pnl": 0.7703805513938278,
+    "closed_cycles": 3,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-5d-z3-24h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-5d-z3-72h",
+    "net_pnl": 0.0,
+    "closed_cycles": 0,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-10d-z2-24h",
+    "net_pnl": -4.898311531334912,
+    "closed_cycles": 4,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-10d-z2-72h",
+    "net_pnl": -5.1402294050385535,
+    "closed_cycles": 4,
+    "normal_cycles": 1,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-10d-z3-24h",
+    "net_pnl": -5.222831690967723,
+    "closed_cycles": 3,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "GOOGL-META-10d-z3-72h",
+    "net_pnl": -5.222831690967723,
+    "closed_cycles": 3,
+    "normal_cycles": 0,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-5d-z2-24h",
+    "net_pnl": -10.669220740783203,
+    "closed_cycles": 28,
+    "normal_cycles": 13,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-5d-z2-72h",
+    "net_pnl": -10.669220740783203,
+    "closed_cycles": 28,
+    "normal_cycles": 13,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-5d-z3-24h",
+    "net_pnl": -3.4549287927729893,
+    "closed_cycles": 11,
+    "normal_cycles": 5,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-5d-z3-72h",
+    "net_pnl": -3.4549287927729893,
+    "closed_cycles": 11,
+    "normal_cycles": 5,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-10d-z2-24h",
+    "net_pnl": -10.798567805599305,
+    "closed_cycles": 20,
+    "normal_cycles": 10,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-10d-z2-72h",
+    "net_pnl": -10.798567805599305,
+    "closed_cycles": 20,
+    "normal_cycles": 10,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-10d-z3-24h",
+    "net_pnl": -9.080535813989627,
+    "closed_cycles": 10,
+    "normal_cycles": 6,
+    "qualified": false
+  },
+  {
+    "family": "对冲相对强弱趋势",
+    "id": "COIN-MSTR-10d-z3-72h",
+    "net_pnl": -9.080535813989627,
+    "closed_cycles": 10,
+    "normal_cycles": 6,
+    "qualified": false
+  }
+]
