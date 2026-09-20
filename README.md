@@ -1,6 +1,6 @@
 # rToken Breakout Lab
 
-[????](https://cunicle.github.io/bitgetstrategy/) ? [GitHub??](https://github.com/cunicle/bitgetstrategy) ? [????](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
+[策略dashboard](https://cunicle.github.io/bitgetstrategy/) [GitHub](https://github.com/cunicle/bitgetstrategy) [测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
 
 Bitget AI Base Camp Hackathon S2 · Alpha Factory · **rToken 因子策略**（拟提交）。
 
