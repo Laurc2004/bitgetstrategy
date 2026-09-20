@@ -1,0 +1,98 @@
+{
+  "selected": {
+    "name": "hold_level-exit18-stop8",
+    "config": {
+      "family": "breakout",
+      "fast": 18,
+      "slow": 18,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30,
+      "confirmation_bars": 2,
+      "confirmation_mode": "hold_level"
+    },
+    "base": {
+      "total_return_pct": 1.503310580080175,
+      "net_pnl": 150.33105800801786,
+      "max_drawdown_pct": -2.449856722324517,
+      "sharpe_daily_ann": 0.9588359093640794,
+      "sortino_daily_ann": 1.5161001034997765,
+      "daily_observations": 90,
+      "valuation_points": 129600,
+      "stale_valuation_points": 33261,
+      "fees": 40.92419501198001,
+      "slippage_embedded": 8.184846979998913,
+      "price_pnl": 191.25525302000085,
+      "accounting_residual": -2.9842794901924208e-12,
+      "closed_cycles": 12,
+      "fills": 40,
+      "winning_cycle_fraction": 0.5,
+      "first_half_pnl": 51.18526439526795,
+      "second_half_pnl": 99.14579361274991,
+      "pnl_excluding_best_trade": -7.8432073684943475,
+      "turnover_over_initial_cash": 4.092419501197999,
+      "average_gross_exposure_pct": 33.00337812797971,
+      "unclosed_position": false,
+      "halted": false,
+      "ending_positions": {
+        "QQQ": 0.0,
+        "SPY": 0.0,
+        "AAPL": 0.0,
+        "TSLA": 0.0
+      },
+      "development_30d_blocks": [
+        138.28211586416,
+        131.47995632546736,
+        -119.4310141816095
+      ]
+    },
+    "stress": {
+      "total_return_pct": 1.1789021534119204,
+      "net_pnl": 117.89021534119274,
+      "max_drawdown_pct": -2.5547582953992287,
+      "sharpe_daily_ann": 0.7548336649036025,
+      "sortino_daily_ann": 1.179032976982981,
+      "daily_observations": 90,
+      "valuation_points": 129600,
+      "stale_valuation_points": 33261,
+      "fees": 61.34349355380749,
+      "slippage_embedded": 20.447881104997258,
+      "price_pnl": 179.23370889500205,
+      "accounting_residual": -1.8189894035458565e-12,
+      "closed_cycles": 12,
+      "fills": 39,
+      "winning_cycle_fraction": 0.5,
+      "first_half_pnl": 35.924466632253825,
+      "second_half_pnl": 81.96574870893892,
+      "pnl_excluding_best_trade": -37.251921420727456,
+      "turnover_over_initial_cash": 4.0895662369205,
+      "average_gross_exposure_pct": 32.98217840850803,
+      "unclosed_position": false,
+      "halted": false,
+      "ending_positions": {
+        "QQQ": 0.0,
+        "SPY": 0.0,
+        "AAPL": 0.0,
+        "TSLA": 0.0
+      },
+      "development_30d_blocks": [
+        131.9984674906009,
+        119.82833983302771,
+        -133.93659198243586
+      ]
+    },
+    "development_eligible": true
+  },
+  "selected_at": "2026-09-20 20:24:10.035136+00:00",
+  "scope": "SAME_SAMPLE_DEVELOPMENT_SELECTION",
+  "new_oos_evaluated": false,
+  "protocol_sha256": "eff9c50f2e47c83ed1584c75c7f73a9cff7503304431c207507193cd0a67062b"
+}

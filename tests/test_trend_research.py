@@ -94,3 +94,17 @@ def test_confirmation_requires_consecutive_completed_signals():
     expected=one.enter & one.enter.shift(1,fill_value=False)
     pd.testing.assert_series_equal(two.enter,expected)
     assert two.enter.sum()<one.enter.sum()
+
+
+def test_hold_confirmation_accepts_retest_without_second_new_high():
+    frame=bars(days=12)
+    t=frame.index[-1].floor('4h')
+    previous=float(frame.loc[t-pd.Timedelta(hours=4),'close'])
+    mask=(frame.index>t-pd.Timedelta(hours=4))&(frame.index<=t)
+    frame.loc[mask,['high','low','close']]=previous-.01
+    fresh=features(frame,Settings(family='breakout',confirmation_bars=2))
+    hold=features(frame,Settings(family='breakout',confirmation_bars=2,confirmation_mode='hold_level'))
+    assert not fresh.loc[t,'enter']
+    assert hold.loc[t,'enter']
+    changed=frame.copy();changed.loc[changed.index>t,['high','low','close']]*=100
+    pd.testing.assert_frame_equal(hold.loc[:t],features(changed,Settings(family='breakout',confirmation_bars=2,confirmation_mode='hold_level')).loc[:t])

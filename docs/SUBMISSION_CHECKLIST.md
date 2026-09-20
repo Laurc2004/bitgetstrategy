@@ -1,12 +1,13 @@
 # 提交检查表
 
 - [x] Alpha来源、确定性规则、策略代码。
-- [x] 60天训练与30天历史留出记录，明确历史验证的局限。
+- [x] v2已保留60天训练与30天历史留出记录。
+- [ ] v3独立验证：90天开发回测不能替代同一版本的样本外验证。
 - [x] 收益、Sharpe/Sortino、回撤、胜率、换手、滚动30天指标与成本。
 - [x] 训练/留出/基准及高成本报告，所有参数尝试保留。
 - [x] 表单六段说明草稿和大模型作用说明。
 - [x] 可本地运行的静态证据Demo、数据获取与复现脚本。
-- [ ] 公开仓库URL、发布并检查公网Demo。
+- [x] 公开仓库 https://github.com/cunicle/bitgetstrategy ，演示 https://cunicle.github.io/bitgetstrategy/ 。
 - [ ] 发布介绍项目的X帖：#BitgetHackathon、@Bitget_AI，并转发指定官方帖。
 - [ ] 在正式Google Form填写完整说明、材料和X链接。
 - [ ] 团队/UID/学校（如适用）/Demo Day等表单信息。

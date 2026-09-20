@@ -1,5 +1,11 @@
 # 表单项目说明草稿（尚未提交）
 
+当前开发版本为v3。**v3的90天结果属于开发区间，不能替代其自身的独立样本外验证。** 下方保留v2六段草稿及其真实历史验证；正式提交须明确选择的版本，不能将v3开发收益与v2留出成绩拼成同一策略验证。
+
+v3产品与规则见[策略文档](STRATEGY.md)，完整指标见[开发报告](../reports/v3/report.html)。公开仓库：https://github.com/cunicle/bitgetstrategy ，演示：https://cunicle.github.io/bitgetstrategy/ 。
+
+# v2 草稿档案
+
 拟选 Alpha Factory → rToken 因子策略。项目：rToken Breakout Lab。
 
 ## 1. 思路

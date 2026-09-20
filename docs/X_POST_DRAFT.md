@@ -1,12 +1,12 @@
 # X帖草稿（未发布）
 
-我们正在构建 rToken Breakout Lab：针对 rQQQ / rSPY / rAAPL / rTSLA 的现货突破策略研究，包含波动缩仓、成本压力和可复现交易证据。
+构建 rToken Breakout Lab：四资产现货突破、波动缩仓、成本压力与可复现成交账本。
 
-60天训练净收益 +0.8120%，30天历史留出 -0.3763%；均计入模型费用与滑点。严格稳定性检查尚未通过，历史回测不代表未来收益。
+v3在90天已观察开发区间净收益 +1.5033%，高成本 +1.1789%，12笔完整交易。开发样本用于参数研究，新版本尚待独立验证。
 
-Demo：[发布后填链接]
-Code：[公开仓库链接]
+Demo：https://cunicle.github.io/bitgetstrategy/
+Code：https://github.com/cunicle/bitgetstrategy
 
 #BitgetHackathon @Bitget_AI
 
-发布时应引用转发官方指定帖 https://x.com/Bitget_AI/status/2100519318824055159 ，不能只复制链接或纯转发。正式发布前按实际结果与字符长度检查。
+正式发布时引用转发官方指定帖 https://x.com/Bitget_AI/status/2100519318824055159 ，并确认表单最终要求。本文件仅为草稿。
