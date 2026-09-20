@@ -1,5 +1,7 @@
 # rToken Breakout Lab
 
+[????](https://cunicle.github.io/bitgetstrategy/) ? [GitHub??](https://github.com/cunicle/bitgetstrategy) ? [????](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
+
 Bitget AI Base Camp Hackathon S2 · Alpha Factory · **rToken 因子策略**（拟提交）。
 
 以 rQQQ、rSPY、rAAPL、rTSLA 现货为固定研究池，研究突破确认、波动缩仓和退出纪律。目标用户是希望检验小规模 rToken 趋势策略的量化开发者。没有接入实盘下单。
