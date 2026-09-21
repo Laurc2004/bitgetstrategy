@@ -2,9 +2,11 @@
 
 **从突破信号到成交账本，一套可复现的 rToken 现货策略框架。**
 
-[策略 dashboard](https://cunicle.github.io/bitgetstrategy/) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
+[策略演示台](https://cunicle.github.io/bitgetstrategy/dashboard.html) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
 
 面向 rQQQ、rSPY、rAAPL、rTSLA，结合突破确认、波动仓位管理与通道退出。四资产共享现金账户，信号、成交、成本和风险指标均可追溯。
+
+演示台支持时间轴回放、逐笔成交跳转、四资产信号解释、持仓和 CSV 导出。v3 已启动独立前向模拟：本机连接持续采集的账户，公开网页展示带时间戳的发布快照。[运行与验证规则](docs/FORWARD.md)。
 
 ## 策略能力
 

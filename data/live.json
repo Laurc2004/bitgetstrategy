@@ -1,0 +1,164 @@
+{
+  "mode": "forward_paper",
+  "generated_at": "2026-09-21T11:25:01.471081+00:00",
+  "status": "running",
+  "errors": [],
+  "protocol": {
+    "name": "v3-forward-001",
+    "started_at": "2026-09-21T11:20:46.505287+00:00",
+    "ends_at": "2026-09-28T11:20:46.505287+00:00",
+    "strategy": {
+      "family": "breakout",
+      "fast": 18,
+      "slow": 18,
+      "initial_cash": 10000.0,
+      "fee_bps": 10.0,
+      "slippage_bps": 2.0,
+      "participation": 0.01,
+      "step": 0.01,
+      "min_order": 5.0,
+      "symbol_weight": 0.2,
+      "daily_vol_target": 0.02,
+      "trailing_stop": 0.08,
+      "drawdown_stop": 0.1,
+      "order_minutes": 30,
+      "confirmation_bars": 2,
+      "confirmation_mode": "hold_level"
+    },
+    "config_sha256": "ee85958e33b998d641403fa0a488ab641040c9827abdae6e1ea3b10b955c2d86",
+    "source_hashes": {
+      "configs/development-v3.json": "ee85958e33b998d641403fa0a488ab641040c9827abdae6e1ea3b10b955c2d86",
+      "scripts/track_forward.py": "5601c8dd7c58cef4bbea6e5bd442b3fb8d3e06c71a89f7538ead36a96976ad7a",
+      "src/basis_lab/__init__.py": "849390781240af8b7b8db69b5fc4658d6a7dd658617734a08d0c1bc6edf57f3a",
+      "src/basis_lab/data/__init__.py": "c31a2b51d5e2e245279e8de8294d46ad95e09804d613db154771dca29d149952",
+      "src/basis_lab/data/validate.py": "30c1359dbf5bd3c8a1c1bef2d84a028fa5e719be15d9058d13b3c11cecffdf4b",
+      "src/basis_lab/forward.py": "f5f4fba3c060849d56574813ae136f538d8071b3bd3e4c7e9800e92d4260f449",
+      "src/basis_lab/models.py": "d777d959be5d518bf177e009176ba6ce8b5c6b86716ccaaf3b6f1e5006fc3a31",
+      "src/basis_lab/portfolio.py": "f6b465c38b5c6e50cdf1ce687f32f77832d9d9dfe370e84452cf04e0170da148",
+      "src/basis_lab/report.py": "f04db7f77abc799fb43d5b30000fef9680d0f6ad2d9bed84d5bed6236af9c643",
+      "src/basis_lab/trend_research.py": "0b3f79938881f803f7888d66504e8bbc6b7fffb277d57df805a115faf59d861a"
+    },
+    "scope": "PROSPECTIVE_PUBLIC_DATA_PAPER",
+    "interval_seconds": 60,
+    "warmup": "Up to 10 prior calendar days, no pre-start PnL or orders.",
+    "execution": "Actual receipt time; first full subsequent minute; bars >120s late cannot fill or signal.",
+    "stopping": "No scheduled liquidation: stopping records open positions; resume this same account.",
+    "data": "GET Bitget v3 SPOT candles/tickers. First completed observation retained. Missing bars never filled.",
+    "comparison": "Same v3 signal, costs and risk parameters; stricter receipt-time execution than historical replay."
+  },
+  "equity": 10000.0,
+  "cash": 10000.0,
+  "fees": 0.0,
+  "net_pnl": 0.0,
+  "max_drawdown_pct": 0.0,
+  "closed_cycles": 0,
+  "fills_count": 0,
+  "halted": false,
+  "symbols": [
+    {
+      "symbol": "QQQ",
+      "quantity": 0.0,
+      "average": 0.0,
+      "realized": 0.0,
+      "mark": 727.914,
+      "mark_at": "2026-09-21T11:24:00+00:00",
+      "quote": {
+        "price": 727.96,
+        "bid": 727.92,
+        "ask": 727.97,
+        "change_pct": 0.9159999999999999,
+        "exchange_at": "2026-09-21T11:25:01.432000+00:00",
+        "received_at": "2026-09-21T11:25:00.598581+00:00"
+      },
+      "signal": null,
+      "pending": null,
+      "peak": null,
+      "bars": 8839
+    },
+    {
+      "symbol": "SPY",
+      "quantity": 0.0,
+      "average": 0.0,
+      "realized": 0.0,
+      "mark": 766.569,
+      "mark_at": "2026-09-21T11:24:00+00:00",
+      "quote": {
+        "price": 766.58,
+        "bid": 766.55,
+        "ask": 766.63,
+        "change_pct": 0.488,
+        "exchange_at": "2026-09-21T11:25:01.435000+00:00",
+        "received_at": "2026-09-21T11:25:00.598420+00:00"
+      },
+      "signal": null,
+      "pending": null,
+      "peak": null,
+      "bars": 8220
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 0.0,
+      "average": 0.0,
+      "realized": 0.0,
+      "mark": 335.78,
+      "mark_at": "2026-09-21T11:24:00+00:00",
+      "quote": {
+        "price": 335.84,
+        "bid": 335.84,
+        "ask": 335.9,
+        "change_pct": 0.215,
+        "exchange_at": "2026-09-21T11:25:01.434000+00:00",
+        "received_at": "2026-09-21T11:25:00.956704+00:00"
+      },
+      "signal": null,
+      "pending": null,
+      "peak": null,
+      "bars": 8453
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 0.0,
+      "average": 0.0,
+      "realized": 0.0,
+      "mark": 368.96,
+      "mark_at": "2026-09-21T11:24:00+00:00",
+      "quote": {
+        "price": 368.94,
+        "bid": 368.87,
+        "ask": 369.0,
+        "change_pct": 1.354,
+        "exchange_at": "2026-09-21T11:24:59.946000+00:00",
+        "received_at": "2026-09-21T11:25:00.964137+00:00"
+      },
+      "signal": null,
+      "pending": null,
+      "peak": null,
+      "bars": 8885
+    }
+  ],
+  "events": [],
+  "curve": [
+    {
+      "timestamp": "2026-09-21T11:21:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "timestamp": "2026-09-21T11:22:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "timestamp": "2026-09-21T11:23:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "timestamp": "2026-09-21T11:24:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    }
+  ],
+  "last_bar": "2026-09-21T11:24:00+00:00",
+  "publication": "STATIC_SNAPSHOT_NOT_A_LIVE_CONNECTION"
+}
