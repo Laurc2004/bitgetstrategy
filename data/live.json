@@ -1,12 +1,12 @@
 {
   "mode": "forward_paper",
-  "generated_at": "2026-09-21T11:25:01.471081+00:00",
+  "generated_at": "2026-09-22T15:54:02.720330+00:00",
   "status": "running",
   "errors": [],
   "protocol": {
     "name": "v3-forward-001",
-    "started_at": "2026-09-21T11:20:46.505287+00:00",
-    "ends_at": "2026-09-28T11:20:46.505287+00:00",
+    "started_at": "2026-09-22T15:48:06.132418+00:00",
+    "ends_at": "2026-09-29T15:48:06.132418+00:00",
     "strategy": {
       "family": "breakout",
       "fast": 18,
@@ -60,105 +60,114 @@
       "quantity": 0.0,
       "average": 0.0,
       "realized": 0.0,
-      "mark": 727.914,
-      "mark_at": "2026-09-21T11:24:00+00:00",
+      "mark": 744.41,
+      "mark_at": "2026-09-22T15:54:00+00:00",
       "quote": {
-        "price": 727.96,
-        "bid": 727.92,
-        "ask": 727.97,
-        "change_pct": 0.9159999999999999,
-        "exchange_at": "2026-09-21T11:25:01.432000+00:00",
-        "received_at": "2026-09-21T11:25:00.598581+00:00"
+        "price": 744.4,
+        "bid": 744.37,
+        "ask": 744.41,
+        "change_pct": 0.951,
+        "exchange_at": "2026-09-22T15:54:01.013000+00:00",
+        "received_at": "2026-09-22T15:54:02.233596+00:00"
       },
       "signal": null,
       "pending": null,
       "peak": null,
-      "bars": 8839
+      "bars": 9727
     },
     {
       "symbol": "SPY",
       "quantity": 0.0,
       "average": 0.0,
       "realized": 0.0,
-      "mark": 766.569,
-      "mark_at": "2026-09-21T11:24:00+00:00",
+      "mark": 772.91,
+      "mark_at": "2026-09-22T15:54:00+00:00",
       "quote": {
-        "price": 766.58,
-        "bid": 766.55,
-        "ask": 766.63,
-        "change_pct": 0.488,
-        "exchange_at": "2026-09-21T11:25:01.435000+00:00",
-        "received_at": "2026-09-21T11:25:00.598420+00:00"
+        "price": 772.89,
+        "bid": 772.9,
+        "ask": 772.93,
+        "change_pct": 0.265,
+        "exchange_at": "2026-09-22T15:54:01.015000+00:00",
+        "received_at": "2026-09-22T15:54:02.236945+00:00"
       },
       "signal": null,
       "pending": null,
       "peak": null,
-      "bars": 8220
+      "bars": 9076
     },
     {
       "symbol": "AAPL",
       "quantity": 0.0,
       "average": 0.0,
       "realized": 0.0,
-      "mark": 335.78,
-      "mark_at": "2026-09-21T11:24:00+00:00",
+      "mark": 342.315,
+      "mark_at": "2026-09-22T15:54:00+00:00",
       "quote": {
-        "price": 335.84,
-        "bid": 335.84,
-        "ask": 335.9,
-        "change_pct": 0.215,
-        "exchange_at": "2026-09-21T11:25:01.434000+00:00",
-        "received_at": "2026-09-21T11:25:00.956704+00:00"
+        "price": 342.35,
+        "bid": 342.27,
+        "ask": 342.35,
+        "change_pct": 1.188,
+        "exchange_at": "2026-09-22T15:54:01.579000+00:00",
+        "received_at": "2026-09-22T15:54:02.461826+00:00"
       },
       "signal": null,
       "pending": null,
       "peak": null,
-      "bars": 8453
+      "bars": 9271
     },
     {
       "symbol": "TSLA",
       "quantity": 0.0,
       "average": 0.0,
       "realized": 0.0,
-      "mark": 368.96,
-      "mark_at": "2026-09-21T11:24:00+00:00",
+      "mark": 376.21,
+      "mark_at": "2026-09-22T15:54:00+00:00",
       "quote": {
-        "price": 368.94,
-        "bid": 368.87,
-        "ask": 369.0,
-        "change_pct": 1.354,
-        "exchange_at": "2026-09-21T11:24:59.946000+00:00",
-        "received_at": "2026-09-21T11:25:00.964137+00:00"
+        "price": 376.28,
+        "bid": 376.22,
+        "ask": 376.33,
+        "change_pct": 0.44,
+        "exchange_at": "2026-09-22T15:54:01.577000+00:00",
+        "received_at": "2026-09-22T15:54:02.563231+00:00"
       },
       "signal": null,
       "pending": null,
       "peak": null,
-      "bars": 8885
+      "bars": 9727
     }
   ],
   "events": [],
   "curve": [
     {
-      "timestamp": "2026-09-21T11:21:00+00:00",
+      "timestamp": "2026-09-22T15:49:00+00:00",
       "equity": 10000.0,
       "cash": 10000.0
     },
     {
-      "timestamp": "2026-09-21T11:22:00+00:00",
+      "timestamp": "2026-09-22T15:50:00+00:00",
       "equity": 10000.0,
       "cash": 10000.0
     },
     {
-      "timestamp": "2026-09-21T11:23:00+00:00",
+      "timestamp": "2026-09-22T15:51:00+00:00",
       "equity": 10000.0,
       "cash": 10000.0
     },
     {
-      "timestamp": "2026-09-21T11:24:00+00:00",
+      "timestamp": "2026-09-22T15:52:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "timestamp": "2026-09-22T15:53:00+00:00",
+      "equity": 10000.0,
+      "cash": 10000.0
+    },
+    {
+      "timestamp": "2026-09-22T15:54:00+00:00",
       "equity": 10000.0,
       "cash": 10000.0
     }
   ],
-  "last_bar": "2026-09-21T11:24:00+00:00",
-  "publication": "STATIC_SNAPSHOT_NOT_A_LIVE_CONNECTION"
+  "last_bar": "2026-09-22T15:54:00+00:00"
 }

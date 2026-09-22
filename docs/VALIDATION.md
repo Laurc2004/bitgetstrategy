@@ -36,3 +36,8 @@
 执行模型测试覆盖未来数据隔离、突破位确认、下一分钟成交、资金守恒、成交容量、超时和缺失退出。数据固定到公开仓库提交并核验下载字节；GitHub LF与原始Windows研究CRLF分别保留哈希。仓库产物通过`repository_manifest.json`核验。
 
 当前界面完成静态HTTP、链接及产物检查；尚未完成真实浏览器视觉验收。运行与发布状态可查[GitHub Actions](https://github.com/cunicle/bitgetstrategy/actions)。研究不包含实盘成交或真实用户绩效。
+
+## 前向模拟账户状态（2026-09-22 更新）
+
+- v3-forward-001 于 09-21 首次启动后因采集进程中断未产出数据；09-22 15:48 UTC 按同一冻结协议重新初始化，观察期 09-22 → 09-29（7 天）。
+- 公开快照 `data/live.json` 为 STATIC_SNAPSHOT，非实时连接；本机采集每 60s 拉一次公开行情。
