@@ -1,0 +1,60 @@
+{
+ "is_2026-06-01_2026-08-17": {
+  "total_return_pct": -2.6633,
+  "net_pnl": -266.3307,
+  "max_drawdown_pct": -4.32,
+  "sharpe_daily_ann": -1.587,
+  "sortino_daily_ann": -2.1325,
+  "daily_observations": 79,
+  "fees_slippage": 101.4941,
+  "open_positions_end": {
+   "RAAPL": 6.2777
+  },
+  "closed_trades": 23,
+  "win_rate": 0.2174
+ },
+ "is_2026-06-01_2026-08-17_stress": {
+  "total_return_pct": -3.3365,
+  "net_pnl": -333.652,
+  "max_drawdown_pct": -4.8364,
+  "sharpe_daily_ann": -1.9735,
+  "sortino_daily_ann": -2.6038,
+  "daily_observations": 79,
+  "fees_slippage": 168.6293,
+  "open_positions_end": {
+   "RAAPL": 6.2353
+  },
+  "closed_trades": 23,
+  "win_rate": 0.2174
+ },
+ "oos_2026-08-18_2026-09-16": {
+  "total_return_pct": -1.5577,
+  "net_pnl": -155.7706,
+  "max_drawdown_pct": -2.4673,
+  "sharpe_daily_ann": -2.3345,
+  "sortino_daily_ann": -2.8532,
+  "daily_observations": 30,
+  "fees_slippage": 39.6766,
+  "open_positions_end": {
+   "RAAPL": 6.0282,
+   "RTSLA": 5.322
+  },
+  "closed_trades": 8,
+  "win_rate": 0.125
+ },
+ "oos_2026-08-18_2026-09-16_stress": {
+  "total_return_pct": -1.8201,
+  "net_pnl": -182.0056,
+  "max_drawdown_pct": -2.6562,
+  "sharpe_daily_ann": -2.6984,
+  "sortino_daily_ann": -3.2457,
+  "daily_observations": 30,
+  "fees_slippage": 66.0606,
+  "open_positions_end": {
+   "RAAPL": 6.0131,
+   "RTSLA": 5.3104
+  },
+  "closed_trades": 8,
+  "win_rate": 0.125
+ }
+}
