@@ -8,7 +8,7 @@
   "fees": 28.462907318852,
   "turnover_over_initial_cash": 2.8462907318851998,
   "average_gross_exposure_pct": 20.68033638564993,
-  "closed_cycles": 8.0,
+  "closed_cycles": 8,
   "winning_cycle_fraction": 0.5
  },
  "is_2026-06-01_2026-08-17_stress": {
@@ -20,7 +20,7 @@
   "fees": 42.68396521092,
   "turnover_over_initial_cash": 2.845597680728001,
   "average_gross_exposure_pct": 20.67902092649216,
-  "closed_cycles": 8.0,
+  "closed_cycles": 8,
   "winning_cycle_fraction": 0.5
  },
  "oos_2026-08-18_2026-09-16": {
@@ -32,7 +32,7 @@
   "fees": 15.253470455533998,
   "turnover_over_initial_cash": 1.5253470455534002,
   "average_gross_exposure_pct": 37.70125885606801,
-  "closed_cycles": 5.0,
+  "closed_cycles": 5,
   "winning_cycle_fraction": 0.2
  },
  "oos_2026-08-18_2026-09-16_stress": {
@@ -44,31 +44,31 @@
   "fees": 22.880234900752498,
   "turnover_over_initial_cash": 1.5253489933835,
   "average_gross_exposure_pct": 37.70125885606801,
-  "closed_cycles": 5.0,
+  "closed_cycles": 5,
   "winning_cycle_fraction": 0.2
  },
  "oos_extended_2026-08-18_2026-09-21": {
-  "net_pnl": -48.80318085273757,
-  "total_return_pct": -0.48803180852737826,
+  "net_pnl": -45.11036629395676,
+  "total_return_pct": -0.45110366293956705,
   "max_drawdown_pct": -1.7720894683131094,
-  "sharpe_daily_ann": -1.015710060914966,
-  "sortino_daily_ann": -1.309327513210666,
-  "fees": 15.031809316736,
-  "turnover_over_initial_cash": 1.5031809316736,
-  "average_gross_exposure_pct": 38.031599309040445,
-  "closed_cycles": 3.0,
-  "winning_cycle_fraction": 0.0
+  "sharpe_daily_ann": -0.9226638973683333,
+  "sortino_daily_ann": -1.1898083830832098,
+  "fees": 19.267155977956,
+  "turnover_over_initial_cash": 1.9267155977956,
+  "average_gross_exposure_pct": 36.94616477717501,
+  "closed_cycles": 6,
+  "winning_cycle_fraction": 0.3333333333333333
  },
  "oos_extended_2026-08-18_2026-09-21_stress": {
-  "net_pnl": -60.830288997756725,
-  "total_return_pct": -0.6083028899775633,
+  "net_pnl": -60.52409965233346,
+  "total_return_pct": -0.6052409965233374,
   "max_drawdown_pct": -1.8396468851633263,
-  "sharpe_daily_ann": -1.2746611265168546,
-  "sortino_daily_ann": -1.6316153511455131,
-  "fees": 22.54963015776,
-  "turnover_over_initial_cash": 1.503308677184,
-  "average_gross_exposure_pct": 38.031599309040445,
-  "closed_cycles": 3.0,
-  "winning_cycle_fraction": 0.0
+  "sharpe_daily_ann": -1.2481196294506285,
+  "sortino_daily_ann": -1.597201811832118,
+  "fees": 28.900743862335002,
+  "turnover_over_initial_cash": 1.9267162574889998,
+  "average_gross_exposure_pct": 36.94616477717501,
+  "closed_cycles": 6,
+  "winning_cycle_fraction": 0.3333333333333333
  }
 }
