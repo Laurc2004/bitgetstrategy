@@ -13,11 +13,12 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from typing import Any
 
-from getagent import data, runtime
+from getagent import backtest, data, runtime
 
-SYMBOLS = ["RQQQUSDT", "RSPYUSDT", "RAAPLUSDT", "RTSLAUSDT"]
+SYMBOLS = ["QQQUSDT", "SPYUSDT", "AAPLUSDT", "TSLAUSDT"]
 INTERVAL = "4h"
 INTERVAL_MS = 4 * 60 * 60 * 1000
+VENUE = "BITGET"
 MAX_STALE_INTERVALS = 2
 
 
@@ -39,7 +40,7 @@ def _decimal(value: object, default: str = "0") -> Decimal:
 
 
 def _fetch_4h(symbol: str, lookback: int = 400) -> list[dict]:
-    bars = data.crypto.spot.kline(
+    bars = data.crypto.futures.kline(
         symbol=symbol,
         interval=INTERVAL,
         exchange="bitget",
@@ -218,14 +219,66 @@ def _run_live() -> None:
     )
 
 
+def _run_historical() -> None:
+    frames = {}
+    total_rows = 0
+    for sym in SYMBOLS:
+        rows = _fetch_4h(sym, lookback=400)
+        if not rows:
+            continue
+        frame = backtest.prepare_frame(rows, datetime_index="date")
+        frames[f"{sym}.{VENUE}"] = frame
+        total_rows += len(frame)
+
+    if not frames:
+        runtime.emit_signal(action="watch", symbol=SYMBOLS[0], confidence=0.0,
+                            metrics={"rows": 0},
+                            meta={"reason": "no historical bars"})
+        return
+
+    result = backtest.run(ohlcv_data=frames, spec=runtime.backtest_spec)
+    chart_path = backtest.generate_chart(result)
+    summary = result.summary or {}
+    try:
+        net_pnl = float(summary.get("net_pnl", 0) or 0)
+    except (TypeError, ValueError):
+        net_pnl = 0.0
+    last_ts = 0
+    for frame in frames.values():
+        try:
+            last_ts = max(last_ts, int(frame.index.max().timestamp() * 1000))
+        except Exception:  # noqa: BLE001
+            pass
+
+    runtime.emit_signal(
+        action="long" if net_pnl > 0 else "watch",
+        symbol=SYMBOLS[0],
+        confidence=_sanitize(result.win_rate) or 0.0,
+        metrics={
+            "total_return_pct": _sanitize(result.total_return_pct),
+            "net_pnl": net_pnl,
+            "starting_balance": summary.get("starting_balance"),
+            "sharpe_ratio": _sanitize(result.sharpe_ratio),
+            "max_drawdown_pct": _sanitize(result.max_drawdown_pct),
+            "win_rate": _sanitize(result.win_rate),
+            "total_trades": _sanitize(result.total_trades),
+            "profit_factor": _sanitize(result.profit_factor),
+            "rows": total_rows,
+            "last_bar_ts": last_ts,
+        },
+        meta={"chart_path": chart_path, "symbols": SYMBOLS,
+              "strategy": "confirmed breakout, hold_level confirmation, channel exit"},
+    )
+
+
 def run() -> None:
+    if runtime.is_historical():
+        _run_historical()
+        return
     if runtime.is_live():
         _run_live()
         return
-    raise ValueError(
-        "live-only playbook: platform replay data has no RWA spot history; "
-        "historical evidence lives in the repository's own 1m engine reports"
-    )
+    raise ValueError(f"unsupported evaluation_mode={runtime.evaluation_mode!r}")
 
 
 if __name__ == "__main__":

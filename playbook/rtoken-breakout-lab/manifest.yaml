@@ -51,20 +51,18 @@ long_description: |
   trends resume. Development-window results are disclosed as development, not
   out-of-sample validation, and honest holdout outcomes are published in the
   repository alongside the research history.
-market_type: spot
+market_type: contract
 trading_symbols:
-  - RQQQUSDT
-  - RSPYUSDT
-  - RAAPLUSDT
-  - RTSLAUSDT
+  - QQQUSDT
+  - SPYUSDT
+  - AAPLUSDT
+  - TSLAUSDT
 output_kind: trade_strategy
 decision_mode: deterministic
-backtest_support: none
-runtime_profile: llm_bounded
+backtest_support: full
+runtime_profile: deterministic
 execution_mode: follow_trade
 follow_trade_supported: true
-official_evidence_kind: paper
-
 schedule:
   cron: "0 */4 * * *"
   tz: "UTC"
