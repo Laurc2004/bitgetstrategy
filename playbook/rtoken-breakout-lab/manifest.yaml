@@ -1,0 +1,95 @@
+name: rtoken-breakout-lab
+version: "1.0.0"
+display_name: "rToken Breakout Lab"
+display_name_i18n:
+  en: "rToken Breakout Lab"
+  zh: "rToken 突破实验室"
+  zh-tw: "rToken 突破實驗室"
+  es: "Laboratorio de Ruptura rToken"
+  ja: "rToken ブレイクアウト・ラボ"
+  vi: "Phòng thí nghiệm突破 rToken"
+description: "Confirmed 4h breakout entries with volatility-scaled sizing and channel exits on four Bitget RWA US-stock spot tokens."
+description_i18n:
+  en: "Confirmed 4h breakout entries with volatility-scaled sizing and channel exits on four Bitget RWA US-stock spot tokens."
+  zh: "四标的 RWA 美股现货的连续确认突破策略：波动缩仓、通道退出、跟踪止损。"
+  zh-tw: "四標的 RWA 美股現貨的連續確認突破策略：波動縮倉、通道退出、跟蹤止損。"
+  es: "Entradas de ruptura confirmadas con dimensionamiento por volatilidad y salidas de canal en cuatro tokens RWA de acciones de EE. UU."
+  ja: "4つのRWA米国株スポットに対する確認付きブレイクアウト、ボラティリティ連動サイジング、チャネル退出。"
+  vi: "Vào lệnh breakout xác nhận với khối lượng theo biến động và thoát theo kênh trên 4 token RWA cổ phiếu Mỹ."
+long_description: |
+  This Playbook is built on the thesis that tokenized US-stock spot tokens
+  trade around the clock, but breakout signals on them are notoriously noisy:
+  a single fresh four-hour high is often just weekend liquidity, not a trend.
+  It seeks to capture confirmed breakouts on four Bitget RWA spot tokens,
+  requiring price to hold above the broken level on consecutive completed bars
+  before committing capital, and managing the position with volatility-aware
+  sizing and channel exits once inside.
+
+  Entry logic compares each completed four-hour close against the highest high
+  of the preceding rolling window. A candidate becomes tradable only after it
+  has held above that breakout level for a configurable number of consecutive
+  completed bars, which filters one-bar spikes. Position size starts from a
+  fixed share of account equity per symbol and scales down when realized
+  volatility runs above target, so turbulent regimes automatically shrink
+  exposure. Buy orders that cannot fill within a short timeout are cancelled
+  rather than chased.
+
+  Exit logic is deliberately mechanical. A close below the rolling channel low
+  exits the position, a fixed trailing drawdown from the position peak exits
+  the position, and an account-level drawdown stop halts new buying while
+  allowing sells. The strategy never adds to a losing position and never
+  pyramids.
+
+  Subscribers can tune the per-symbol equity share, which linearly changes
+  concentration and account volatility; the volatility target, which loosens or
+  tightens the scaling of exposure; and the confirmation bar count, which
+  trades earlier entries for fewer false breakouts.
+
+  The strategy underperforms in choppy ranges where breakouts repeatedly fail,
+  during RWA liquidity droughts where fills degrade, and in regime transitions
+  where realized volatility spikes force the sizer to its minimum just as
+  trends resume. Development-window results are disclosed as development, not
+  out-of-sample validation, and honest holdout outcomes are published in the
+  repository alongside the research history.
+market_type: contract
+trading_symbols:
+  - QQQUSDT
+  - SPYUSDT
+  - AAPLUSDT
+  - TSLAUSDT
+output_kind: trade_strategy
+decision_mode: deterministic
+backtest_support: full
+runtime_profile: deterministic
+execution_mode: follow_trade
+follow_trade_supported: true
+schedule:
+  cron: "0 */4 * * *"
+  tz: "UTC"
+
+strategy_config:
+  margin_budget: '2000'
+  window: 18
+  confirmation_bars: 2
+  symbol_weight: "0.2"
+  daily_vol_target: "0.02"
+  quote_budget: "1000"
+  lookback_candles: 200
+
+user_config_schema:
+  quote_budget:
+    type: string
+    default: "1000"
+    label: "Quote budget per entry (USDT)"
+  symbol_weight:
+    type: string
+    default: "0.2"
+    label: "Per-symbol equity share"
+  confirmation_bars:
+    type: integer
+    default: 2
+    min: 1
+    max: 5
+    label: "Consecutive confirmation bars"
+
+tags: ["rwa", "us-stocks", "breakout", "trend", "spot", "rToken"]

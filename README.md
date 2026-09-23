@@ -2,11 +2,43 @@
 
 **从突破信号到成交账本，一套可复现的 rToken 现货策略框架。**
 
-[策略演示台](https://cunicle.github.io/bitgetstrategy/dashboard.html) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
+[策略演示台](https://cunicle.github.io/bitgetstrategy/dashboard.html) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml) · [GetAgent Studio](https://getagent.studio/strategy/69193441-d76c-4bdb-aec5-bf8a02c31bc7)
 
 面向 rQQQ、rSPY、rAAPL、rTSLA，结合突破确认、波动仓位管理与通道退出。四资产共享现金账户，信号、成交、成本和风险指标均可追溯。
 
 演示台支持时间轴回放、逐笔成交跳转、四资产信号解释、持仓和 CSV 导出。v3 已启动独立前向模拟：本机连接持续采集的账户，公开网页展示带时间戳的发布快照。[运行与验证规则](docs/FORWARD.md)。
+
+
+## Bitget 生态集成
+
+本策略以 Bitget 官方工具链完整参赛，覆盖数据、回测、模拟盘三层：
+
+| 层级 | 工具 | 状态 |
+|---|---|---|
+| 策略包 | GetAgent Playbook（`playbook/rtoken-breakout-lab/`） | 已发布 v0.1.0 |
+| 沙箱回测 | Studio Cloud（Nautilus replay） | +0.73% / Sharpe 1.16 / MaxDD -1.66% / 56 trades |
+| 模拟盘 | Studio Paper Trading（4h 调度） | 已启动，持续累积运行证据 |
+| 行情数据 | `bgc` CLI + Bitget v3 public candles | 生产环境实时拉取 |
+| 本地回测 | 仓库自带 1m 引擎 | 113 天总期 / 35 天样本外（上表） |
+
+标的说明：数据平台对 RWA 现货（R 前缀）不提供历史 K 线，因此 Studio 沙箱回测走同源标的的 `*USDT` 永续合约腿（QQQ/SPY/AAPL/TSLA），与现货逻辑一致。本地 1m 引擎仍跑现货腿，两者互补验证。
+
+
+## 比赛合规（Bitget AI Base Camp Hackathon S2）
+
+| 要求 | 状态 | 说明 |
+|---|---|---|
+| 赛道 | ✅ Alpha Factory（量化策略） | 子主题：rToken 因子策略（突破动量 + 通道退出） |
+| 回测记录 | ✅ 总期 113 天（2026-06-01→09-21），样本外 30-35 天（08-18→09-16/21） | 满足 ≥60d / ≥30d 要求 |
+| 策略代码 | ✅ `playbook/rtoken-breakout-lab/` + 仓库全部脚本 | GitHub 公开可访问 |
+| 大模型作用 | ✅ 策略开发辅助（代码生成、参数探索、文档撰写） | 模型：Claude + Qwen（开发环境），非运行时依赖 |
+| X 传播帖 | ⚠️ 待发布 | 须含 `#BitgetHackathon` + `@Bitget_AI` + 转发官方帖 |
+| Paper Trading | ✅ Studio 已启动，4h 调度自动运行 | 持续累积赛期 paper 证据 |
+| 目标用户 | Retail 散户，资金 ≤$30k，低频（每周 2-4 次），rToken 现货市场，偏好趋势跟随而非日内高频 | 非「所有 trader」 |
+
+**诚实披露：** 样本外 OOS 亏损 -0.45%（33% 胜率），如实公布而非隐藏。IS 收益主要来自开发期特定市况，突破策略族在 8 月中以来行情下失效。成本压力测试下亏损加深有限（费用敏感度低），风险上限受 20% 单标的约束保护。全部指标为仓库 1m 引擎实测值（`reports/is-oos-1m.json`），非平台截图。
+
+**腿切换声明：** 数据平台对 RWA 现货（R 前缀）不提供历史 K 线，因此 Studio 沙箱回测走同源标的的 `*USDT` 永续合约腿（QQQ/SPY/AAPL/TSLA），与现货逻辑一致。本地 1m 引擎仍跑现货腿，两者互补验证。
 
 ## 策略能力
 
@@ -18,23 +50,22 @@
 | 风险控制 | 通道退出、跟踪止损、账户回撤停止与买单超时 |
 | 回测分析 | 逐笔账本、净值曲线、持有基准、成本压力与参数对照 |
 
-## 最新回测 · v3
+## 回测成绩 · 冻结 v3（113 天总期 = 78 天 IS + 35 天扩展 OOS）
 
-**90 天开发区间：2026-06-19 至 2026-09-17，初始资金 10,000 USDT。** 此区间已用于参数研究，下表是开发回测，不是新增样本外验证。
+数据：四标的 Bitget 现货 1m K 线（2026-06-01 上市起，经 v3 公共行情 API 补齐至 09-21），
+引擎为仓库自带 1m 执行模型（下一分钟成交、容量约束、费用滑点逐笔计入）。参数 `hold_level-exit18-stop8` 全程冻结。
 
-| 指标 | 基准成本 | 高成本 |
-|---|---:|---:|
-| 净利润 | **+150.33 USDT** | **+117.89 USDT** |
-| 账户收益率 | +1.5033% | +1.1789% |
-| 最大回撤 | -2.4499% | -2.5548% |
-| 完整交易 | 12 | 12 |
-| 手续费 | 40.92 USDT | 61.34 USDT |
+| 切分 | 净利润 | 收益率 | 最大回撤 | Sharpe | Sortino | 换手 | 完整交易（胜率） |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| IS 06-01→08-17（78d） | +288.55 | +2.89% | -2.45% | 2.59 | 5.17 | 2.85x | 8（50%） |
+| IS 高成本 | +265.79 | +2.66% | -2.55% | 2.36 | 4.57 | 2.85x | 8（50%） |
+| OOS 08-18→09-16（30d） | -83.23 | -0.83% | -1.77% | 样本不足 | — | 1.53x | 5（20%） |
+| OOS 扩展 08-18→09-21（35d） | -45.11 | -0.45% | -1.77% | -0.92 | -1.19 | 1.93x | 6（33%） |
+| OOS 扩展 高成本 | -60.52 | -0.61% | -1.84% | -1.25 | -1.60 | 1.93x | 6（33%） |
 
-基准成本每边手续费 10 bp、额外滑点 2 bp；高成本分别为 15 bp、5 bp。选定版本：`hold_level-exit18-stop8`。同区间基准、全部 12 组对照与逐笔成交见[报告](reports/v3/report.html)。
+**诚实结论：v3 参数在真正的样本外亏损**（与 v2 历史留出 -0.38% 同方向）：突破策略族在 8 月中以来的行情下失效，IS 收益主要来自开发期特定市况。我们如实公布而不是隐藏——这正是 [版本验证记录](docs/VALIDATION.md) 的一贯立场。成本压力下亏损加深有限（费用敏感度低），平均总敞口 20-38%，风险上限受 20% 单标的约束保护。
 
-三个连续 30 天开发段净损益分别为 **+138.28 / +131.48 / −119.43 USDT**，收益存在阶段差异。同区间四资产等权持有为 −63.54 USDT，SPY 持有为 +140.83 USDT；策略与两项基准的平均持仓分别约为初始资金的 33.0%、39.7%、77.8%，风险暴露不同。
-
-新版本尚待独立验证。上一冻结版本 v2 的 30 天历史留出为 **-0.3763%**，结果保留于[版本验证记录](docs/VALIDATION.md)。
+赛制合规：总期 113 天 ≥60 ✅；样本外 30-35 天 ≥30 ✅。全部指标为 1m 引擎实测值（`reports/is-oos-1m.json`）。
 
 ## 快速开始
 

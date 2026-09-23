@@ -3,32 +3,32 @@
   "commit": "93f1b3ed1deab19f272f67345880bbc82984e44e",
   "files": {
     "RQQQUSDT_spot.jsonl": {
-      "sha256": "d64093116d82900b4cd258a3ff1c728d5a4aef539339ebc94ba3431647cdfd40",
-      "bytes": 11517475,
+      "sha256": "95a3f79b9146c4cc77ba84f2b7cfaf78cfa5dded1a74fa764ba8e4422afec131",
+      "bytes": 8018601,
       "url": "https://raw.githubusercontent.com/Laurc2004/bitget-hackathon-s2-p2-weekend-bounce/93f1b3ed1deab19f272f67345880bbc82984e44e/reproduce/pair_1m/RQQQUSDT_spot.jsonl",
       "upstream_sha256": "ac76e6237517511fe09b030d44da0fa9dd7a02d0ec8053b7ca39da48804a8d93",
       "upstream_bytes": 11410599,
       "analysis_line_endings": "CRLF"
     },
     "RSPYUSDT_spot.jsonl": {
-      "sha256": "2e38ba3365a882857d99abef75fd260bdeb9b0a90c998a73fe4f9c0fb75767d1",
-      "bytes": 10992462,
+      "sha256": "df3e400e7286992123fd007f0267fcfbfa309077f04f1f4f07604d66c5c8f7b1",
+      "bytes": 7664665,
       "url": "https://raw.githubusercontent.com/Laurc2004/bitget-hackathon-s2-p2-weekend-bounce/93f1b3ed1deab19f272f67345880bbc82984e44e/reproduce/pair_1m/RSPYUSDT_spot.jsonl",
       "upstream_sha256": "703d80a0baf09c7797cbf8346a335318a90c00c78974d7c966fa373fa5d4051a",
       "upstream_bytes": 10890536,
       "analysis_line_endings": "CRLF"
     },
     "RAAPLUSDT_spot.jsonl": {
-      "sha256": "8da76948208f7242ade456cdef110bc6143ba5e94538f4b540093d12bacaf09e",
-      "bytes": 10783800,
+      "sha256": "b3bd0085c96ea909832416a3edaa3e05a0efdffba80dfdcb108ad32881b10fc0",
+      "bytes": 7656442,
       "url": "https://raw.githubusercontent.com/Laurc2004/bitget-hackathon-s2-p2-weekend-bounce/93f1b3ed1deab19f272f67345880bbc82984e44e/reproduce/pair_1m/RAAPLUSDT_spot.jsonl",
       "upstream_sha256": "e3c9258eb71f109ab4b6f1bbb6af89c4c5af38396155de27fdf2c3eedd44490b",
       "upstream_bytes": 10680302,
       "analysis_line_endings": "CRLF"
     },
     "RTSLAUSDT_spot.jsonl": {
-      "sha256": "2b5ba4ec7e8a4099db50444040d5dafaada71c1a38129c8c869fc71e16951394",
-      "bytes": 14683789,
+      "sha256": "7159e3af8466b4eaa01da52d8574686a04314272c9486ccb19a36ca526068f3d",
+      "bytes": 10060082,
       "url": "https://raw.githubusercontent.com/Laurc2004/bitget-hackathon-s2-p2-weekend-bounce/93f1b3ed1deab19f272f67345880bbc82984e44e/reproduce/pair_1m/RTSLAUSDT_spot.jsonl",
       "upstream_sha256": "cd5cdfd755d6b386376d582b615796d3700c4fa38448f2e7c3d83771effda7c7",
       "upstream_bytes": 14548367,

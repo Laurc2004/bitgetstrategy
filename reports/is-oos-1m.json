@@ -1,0 +1,74 @@
+{
+ "is_2026-06-01_2026-08-17": {
+  "net_pnl": 288.55023830914797,
+  "total_return_pct": 2.885502383091487,
+  "max_drawdown_pct": -2.449856722324517,
+  "sharpe_daily_ann": 2.5886147562175195,
+  "sortino_daily_ann": 5.168985225519312,
+  "fees": 28.462907318852,
+  "turnover_over_initial_cash": 2.8462907318851998,
+  "average_gross_exposure_pct": 20.68033638564993,
+  "closed_cycles": 8,
+  "winning_cycle_fraction": 0.5
+ },
+ "is_2026-06-01_2026-08-17_stress": {
+  "net_pnl": 265.7934057090788,
+  "total_return_pct": 2.657934057090783,
+  "max_drawdown_pct": -2.5547582953992287,
+  "sharpe_daily_ann": 2.3584227067956,
+  "sortino_daily_ann": 4.570537429506326,
+  "fees": 42.68396521092,
+  "turnover_over_initial_cash": 2.845597680728001,
+  "average_gross_exposure_pct": 20.67902092649216,
+  "closed_cycles": 8,
+  "winning_cycle_fraction": 0.5
+ },
+ "oos_2026-08-18_2026-09-16": {
+  "net_pnl": -83.23183194953344,
+  "total_return_pct": -0.8323183194953399,
+  "max_drawdown_pct": -1.7720894683131094,
+  "sharpe_daily_ann": null,
+  "sortino_daily_ann": null,
+  "fees": 15.253470455533998,
+  "turnover_over_initial_cash": 1.5253470455534002,
+  "average_gross_exposure_pct": 37.70125885606801,
+  "closed_cycles": 5,
+  "winning_cycle_fraction": 0.2
+ },
+ "oos_2026-08-18_2026-09-16_stress": {
+  "net_pnl": -95.4346336357521,
+  "total_return_pct": -0.9543463363575255,
+  "max_drawdown_pct": -1.8396468851633263,
+  "sharpe_daily_ann": null,
+  "sortino_daily_ann": null,
+  "fees": 22.880234900752498,
+  "turnover_over_initial_cash": 1.5253489933835,
+  "average_gross_exposure_pct": 37.70125885606801,
+  "closed_cycles": 5,
+  "winning_cycle_fraction": 0.2
+ },
+ "oos_extended_2026-08-18_2026-09-21": {
+  "net_pnl": -45.11036629395676,
+  "total_return_pct": -0.45110366293956705,
+  "max_drawdown_pct": -1.7720894683131094,
+  "sharpe_daily_ann": -0.9226638973683333,
+  "sortino_daily_ann": -1.1898083830832098,
+  "fees": 19.267155977956,
+  "turnover_over_initial_cash": 1.9267155977956,
+  "average_gross_exposure_pct": 36.94616477717501,
+  "closed_cycles": 6,
+  "winning_cycle_fraction": 0.3333333333333333
+ },
+ "oos_extended_2026-08-18_2026-09-21_stress": {
+  "net_pnl": -60.52409965233346,
+  "total_return_pct": -0.6052409965233374,
+  "max_drawdown_pct": -1.8396468851633263,
+  "sharpe_daily_ann": -1.2481196294506285,
+  "sortino_daily_ann": -1.597201811832118,
+  "fees": 28.900743862335002,
+  "turnover_over_initial_cash": 1.9267162574889998,
+  "average_gross_exposure_pct": 36.94616477717501,
+  "closed_cycles": 6,
+  "winning_cycle_fraction": 0.3333333333333333
+ }
+}
