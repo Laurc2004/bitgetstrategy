@@ -99,7 +99,7 @@ def confirmed_breakout_state(rows: list[dict], window: int, confirmations: int) 
 
     # realized vol (annualized, 6 bars/day) over last 18 bars
     rets = [(closes[i] / closes[i - 1] - 1) for i in range(n - 18, n) if closes[i - 1] > 0]
-    vol_ann = Decimal(str(math.sqrt(sum(float(r) ** 2 for r in rets) / max(len(rets, 1)) * 6 * 365))) \
+    vol_ann = Decimal(str(math.sqrt(sum(float(r) ** 2 for r in rets) / max(len(rets), 1) * 6 * 365))) \
         if rets else Decimal("0")
     return {
         "close": close,
