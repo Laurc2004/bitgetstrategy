@@ -2,11 +2,26 @@
 
 **从突破信号到成交账本，一套可复现的 rToken 现货策略框架。**
 
-[策略演示台](https://cunicle.github.io/bitgetstrategy/dashboard.html) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml)
+[策略演示台](https://cunicle.github.io/bitgetstrategy/dashboard.html) · [GitHub](https://github.com/cunicle/bitgetstrategy) · [完整回测](https://cunicle.github.io/bitgetstrategy/reports/v3/report.html) · [自动测试](https://github.com/cunicle/bitgetstrategy/actions/workflows/tests.yml) · [GetAgent Studio](https://getagent.studio/strategy/69193441-d76c-4bdb-aec5-bf8a02c31bc7)
 
 面向 rQQQ、rSPY、rAAPL、rTSLA，结合突破确认、波动仓位管理与通道退出。四资产共享现金账户，信号、成交、成本和风险指标均可追溯。
 
 演示台支持时间轴回放、逐笔成交跳转、四资产信号解释、持仓和 CSV 导出。v3 已启动独立前向模拟：本机连接持续采集的账户，公开网页展示带时间戳的发布快照。[运行与验证规则](docs/FORWARD.md)。
+
+
+## Bitget 生态集成
+
+本策略以 Bitget 官方工具链完整参赛，覆盖数据、回测、模拟盘三层：
+
+| 层级 | 工具 | 状态 |
+|---|---|---|
+| 策略包 | GetAgent Playbook（`playbook/rtoken-breakout-lab/`） | 已发布 v0.1.0 |
+| 沙箱回测 | Studio Cloud（Nautilus replay） | +0.73% / Sharpe 1.16 / MaxDD -1.66% / 56 trades |
+| 模拟盘 | Studio Paper Trading（4h 调度） | 已启动，持续累积运行证据 |
+| 行情数据 | `bgc` CLI + Bitget v3 public candles | 生产环境实时拉取 |
+| 本地回测 | 仓库自带 1m 引擎 | 113 天总期 / 35 天样本外（上表） |
+
+标的说明：数据平台对 RWA 现货（R 前缀）不提供历史 K 线，因此 Studio 沙箱回测走同源标的的 `*USDT` 永续合约腿（QQQ/SPY/AAPL/TSLA），与现货逻辑一致。本地 1m 引擎仍跑现货腿，两者互补验证。
 
 ## 策略能力
 
